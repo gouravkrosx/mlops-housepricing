@@ -24,6 +24,8 @@ class Features(BaseModel):
     population: float
     address: str
 
+
+
 @app.post("/predict")
 def predict(features: Features):
     features_dict = {
