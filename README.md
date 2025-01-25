@@ -55,7 +55,7 @@ curl -X 'POST' \
 To run prediction through cli :- 
 
 ```
-python3 -m src.pipeline.predict_pipeline --income 79545.45857431678 --house_age 5.682861321615587 --num_rooms 7.009188142792237 --num_bedrooms 4.09 --population 23086.800502686456 --address "208 Michael Ferry Apt. 674 Laurabury, NE 37010-5101"
+python3 -m src.pipeline.predict_pipeline --income 79545.45857431678 --house_age 5.682861321615587 --num_rooms 7.009188142792237 --num_bedrooms 4.09 --population 23086.800502686456 --address "208 Michael Ferry Apt. 674 Laurabury, NE 37010-5101" 
 ```
 
 
